@@ -1,0 +1,20 @@
+# IDE / build leftovers
+bin/
+obj/
+.vs/
+*.suo
+*.user
+*.pdb
+
+# runtime state written next to the exe
+config.json
+config.json.bak
+日志.txt
+日志.txt.old
+崩溃.log
+自检.txt
+captures/
+
+# never commit user audio (copyright)
+music/*
+!music/README.md
